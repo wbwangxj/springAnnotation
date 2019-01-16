@@ -20,13 +20,13 @@ public class IOCTest_Autowired {
 //        BookDao bean = applicationContext.getBean(BookDao.class);
 //        System.out.println(bean);
 
-        Boss boss = applicationContext.getBean(Boss.class);
-        System.out.println("容器boss中获取的car："+boss);
-        Car car = applicationContext.getBean(Car.class);
-        System.out.println("容器car:"+car);
-
-        Color color = applicationContext.getBean(Color.class);
-        System.out.println("容器Color中的car:"+color);
+//        Boss boss = applicationContext.getBean(Boss.class);
+//        System.out.println("容器boss中获取的car："+boss);
+//        Car car = applicationContext.getBean(Car.class);
+//        System.out.println("容器car:"+car);
+//
+//        Color color = applicationContext.getBean(Color.class);
+//        System.out.println("容器Color中的car:"+color);
         System.out.println(applicationContext);
 
         applicationContext.close();
